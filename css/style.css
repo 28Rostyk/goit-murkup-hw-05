@@ -696,6 +696,7 @@ img {
   position: absolute;
   top: 8px;
   right: 8px;
+
   display: block;
   width: 30px;
   height: 30px;
@@ -704,6 +705,11 @@ img {
   border-radius: 50%;
   color: #000000;
   background-color: #fff;
+  cursor: pointer;
+}
+
+.button-modal:hover.modal-close-icon {
+  background-color: var(--accent-text-color);
 }
 
 .modal-close-icon {
