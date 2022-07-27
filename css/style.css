@@ -697,7 +697,9 @@ img {
   top: 8px;
   right: 8px;
 
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 30px;
   height: 30px;
 
@@ -708,8 +710,8 @@ img {
   cursor: pointer;
 }
 
-.button-modal:hover.modal-close-icon {
-  background-color: var(--accent-text-color);
+.button-modal:hover {
+  color: var(--accent-text-color);
 }
 
 .modal-close-icon {
